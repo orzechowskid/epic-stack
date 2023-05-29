@@ -1,0 +1,49 @@
+{
+  "typescript": {
+    "arrayExpression.spaceAround": true,
+    "arrowFunction.useParentheses": "force",
+    "binaryExpression.spaceSurroundingBitwiseAndArithmeticOperator": true,
+    "bracePosition": "sameLine",
+    "commentLine.forceSpaceAfterSlashes": true,
+    "enumDeclaration.memberSpacing": "newLine",
+    "exportDeclaration.forceMultiLine": true,
+    "exportDeclaration.sortNamedExports": "caseInsensitive",
+    "importDeclaration.forceMultiLine": true,
+    "importDeclaration.sortNamedImports": "caseInsensitive",
+    "jsx.bracketPosition": "nextLine",
+    "jsx.forceNewLinesSurroundingContent": true,
+    "jsx.quoteStyle": "preferDouble",
+    "memberExpression.linePerExpression": true,
+    "module.sortExportDeclarations": "caseInsensitive",
+    "quoteProps": "asNeeded",
+    "quoteStyle": "alwaysDouble",
+    "semiColons": "always",
+    "spaceAround": "false",
+    "spaceSurroundingProperties": true,
+    "trailingCommas": "never",
+    "typeAssertion.spaceBeforeExpression": false,
+    "typeLiteral.separatorKind": "semiColon",
+    "useBraces": "always",
+    "useTabs": true
+  },
+  "json": {
+  },
+  "markdown": {
+  },
+  "toml": {
+  },
+  "dockerfile": {
+  },
+  "includes": ["**/*.{ts,tsx,js,jsx,cjs,mjs,json,md,toml,dockerfile}"],
+  "excludes": [
+    "**/node_modules",
+    "**/*-lock.json"
+  ],
+  "plugins": [
+    "https://plugins.dprint.dev/typescript-0.85.1.wasm",
+    "https://plugins.dprint.dev/json-0.17.4.wasm",
+    "https://plugins.dprint.dev/markdown-0.15.3.wasm",
+    "https://plugins.dprint.dev/toml-0.5.4.wasm",
+    "https://plugins.dprint.dev/dockerfile-0.3.0.wasm"
+  ]
+}
